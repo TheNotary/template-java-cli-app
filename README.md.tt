@@ -1,0 +1,19 @@
+# <%=config[:name]%>
+
+TODO: Describe your project
+
+## Installation
+
+You can install this program by
+
+```
+$  mvn clean install
+$  stat ~/.m2/repository/my_app_group/<%=config[:name]%>/0.0.0-SNAPSHOT/<%=config[:name]%>-0.0.0-SNAPSHOT.jar
+$  java -jar ~/.m2/repository/my_app_group/<%=config[:name]%>/0.0.0-SNAPSHOT/<%=config[:name]%>-0.0.0-SNAPSHOT.jar
+```
+
+## Usage
+
+```
+$  <%=config[:name]%>
+```
