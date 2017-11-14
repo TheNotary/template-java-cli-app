@@ -4,16 +4,18 @@ TODO: Describe your project
 
 ## Installation
 
-You can install this program by
+You can install this program onto your local machine by following these instructions
 
 ```
 $  mvn clean install
-$  stat ~/.m2/repository/my_app_group/<%=config[:name]%>/0.0.0-SNAPSHOT/<%=config[:name]%>-0.0.0-SNAPSHOT.jar
-$  java -jar ~/.m2/repository/my_app_group/<%=config[:name]%>/0.0.0-SNAPSHOT/<%=config[:name]%>-0.0.0-SNAPSHOT.jar
+$  cp target/<%=config[:name]%> ~/bin/
 ```
 
 ## Usage
 
+Usage is simple as long as you have ~/bin in your $PATH variable:
+
 ```
 $  <%=config[:name]%>
 ```
+
