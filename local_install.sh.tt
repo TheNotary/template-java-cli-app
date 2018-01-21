@@ -5,7 +5,7 @@ set -e
 app_dest=target/<%=config[:name]%>
 jar_path=target/<%=config[:name]%>-0.0.0-SNAPSHOT.jar
 
-echo "#!/usr/bin/env java -jar" > "${app_dest}" && \
+echo "#!/usr/bin/java -jar" > "${app_dest}" && \
   cat ${jar_path} >> "${app_dest}" && \
   chmod 0755 ${app_dest}
 
