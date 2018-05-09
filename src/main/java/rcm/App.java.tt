@@ -20,6 +20,8 @@ public class App
           System.out.println( "It was FULL" );
         }
 
-        System.out.println( "Hello World!" );
+        String myProp = System.getProperty("launchtime_property");
+
+        System.out.println( "Hello World!  Here's a property:  " + myProp );
     }
 }
